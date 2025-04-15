@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Grid Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            margin-top: 80px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            justify-items: center;
+        }
+
+        .product {
+            text-align: center;
+        }
+
+        .product img {
+            width: 200px;
+            height: 200px;
+            border-radius: 70%;
+            background: #f8f8f8;
+            padding: 5px;
+        }
+
+        .product p {
+            font-weight: bold;
+        }
+    </style> 
+    <section class="container">
+        <div class="product">
+            <img src="C:\Users\Lenovo\Downloads\clothing.jpg" alt="clothing">
+            <p>Clothing</p>
+        </div>
+        <div class="product">
+            <img src="C:\Users\Lenovo\Downloads\jewellary.jpg" alt="jewellary">
+            <p>Acessories</p>
+        </div>
+        <div class="product">
+            <img src="C:\Users\Lenovo\Downloads\sculpures.jpg" alt="statue">
+            <p>Sculptures</p>
+        </div>
+        <div class="product">
+            <img src="C:\Users\Lenovo\Downloads\Clay Pots.jpg" alt="crockery">
+            <p>Crockery</p>
+        </div>
+        <div class="product">
+            <img src="C:\Users\Lenovo\Downloads\painting.jpg" alt="painting">
+            <p>Paintings</p>
+        </div>
+        <div class="product">
+            <img src="C:\Users\Lenovo\Downloads\rugs.jpg" alt="rugs">
+            <p>Rugs and Carpets</p>
+        </div>
+
+    </section>
+</body>
+</html>
